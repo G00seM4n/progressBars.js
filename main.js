@@ -14,7 +14,7 @@ window.onload = function() {
             } else {
                 w++;
                 e[i].style.width = w + 'px';
-                e[i].innerHTML = Math.round((w/ew)*100) + '%';
+                e[i].innerHTML = Math.round(w/ew*100) + '%';
             }
         }, 1);
 
