@@ -1,9 +1,9 @@
 window.onload = function() {
     let i = 0;
-
+    let e = document.getElementsByClassName('greenBar');
+    let ew = document.getElementById('greyProgress').clientWidth;
+    
     function b(i){
-        let e = document.getElementsByClassName('greenBar');
-        let ew = document.getElementById('greyProgress').clientWidth;
         let w = 0;
 
         let t = setInterval(function() {
