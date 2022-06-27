@@ -5,7 +5,6 @@ window.onload = function() {
     
     function b(i){
         let w = 0;
-
         let t = setInterval(function() {
             if (w >= ew){
                 i++;
